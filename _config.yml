@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+theme: minima
+
+name:         Long
+description:  Developer
+
+url:          https://long.onedino.com
+
+# Build Settings
+permalink:    :title
+sass:
+  compressed: true
