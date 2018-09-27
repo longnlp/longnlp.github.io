@@ -1,6 +1,7 @@
 theme: minima
 
-name:         Long
+title:        Long
+author:       Long
 description:  Developer
 
 url:          https://long.onedino.com

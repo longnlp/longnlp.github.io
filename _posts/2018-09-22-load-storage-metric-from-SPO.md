@@ -10,7 +10,15 @@ commentId:  1
 
 I have a requirement to query the storage metric information from SharePoint Online site collection, so I basicially try to use the following code without any luck.
 
-#code
+```cs
+using (var clientContext = InitializeContext(context))
+{
+    clientContext.Load(clientContext.Web.RootFolder.StorageMetrics);
+    clientContext.ExecuteQuery();
+    Console.WriteLine(clientContext.Web.RootFolder.StorageMetrics.TotalSize);
+}
+```
+
 
 Need to research why the storage metric doesn't work
 
