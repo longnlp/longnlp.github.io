@@ -1,8 +1,9 @@
 theme: minima
 
-title:        Long
-author:       Long
-description:  Developer
+title:            One - Dino
+author:           Long
+description:      Developer
+google_analytics: UA-126798365-1
 
 url:          https://long.onedino.com
 
