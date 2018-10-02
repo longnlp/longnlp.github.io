@@ -5,8 +5,6 @@ author:           Long
 description:      Developer
 google_analytics: UA-126798365-1
 
-url:          https://long.onedino.com
-
 # Build Settings
 permalink:    :title
 sass:
