@@ -3,12 +3,12 @@ layout:     post
 title:      Load storage metric from SharePoint Online site collection
 summary:    Introduce how to load storage metric with CSOM and rest api
 categories: blog SharePointOnline
-tags:       [SharePoint Online, Storage Metric]
+tags:       [SharePoint Online, CSOM, Storage Metric]
 date:       2018-10-01 23:00:00
 commentId:  1
 ---
 
-I have a requirement to query the storage metric information from SharePoint Online site collection, so I basicially try to use the following code without any luck.
+I have a requirement to query the storage metric information from SharePoint Online site collection, so basicially I try to use the following code without any luck.
 
 ```cs
 ///Bad sample

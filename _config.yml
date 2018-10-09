@@ -1,11 +1,22 @@
-theme: minima
+theme:              minima
 
-title:            One - Dino
-author:           Long
-description:      Developer
-google_analytics: UA-126798365-1
+title:              One - Dino
+author:             Long
+description:        Developer
+google_analytics:   UA-126798365-1
+
+# Debug
+verbose:            fasle
+# End Debug
 
 # Build Settings
-permalink:    :title
+permalink:          :title
 sass:
-  compressed: true
+  compressed:       true
+
+#Conversation
+markdown            : kramdown
+highlighter         : rouge
+lsi                 : false
+excerpt_separator   : "\n\n"
+incremental         : false
