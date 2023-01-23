@@ -1,11 +1,15 @@
 ---
-layout:     post
-title:      Field Value UTC Time vs Unspecial Time in CSOM?
-summary:    Understand the field value is UTC Time or not
-categories: blog SharePointOnline
-tags:       [SharePoint Online, CSOM, Field Value]
-date:       2018-10-08 22:00:00
-commentId:  2
+layout      : single
+title       : Field Value UTC Time vs Unspecial Time in CSOM?
+summary     : Understand the field value is UTC Time or not
+categories  : blog SharePointOnline
+tags        : [SharePoint Online, CSOM, Field Value]
+date        : 2018-10-08 22:00:00
+commentId   : 2
+permalink   : /CSOM-UTC-Time
+toc         : true
+toc_icon    : "cog"
+toc_label   : "My Table of Contents"
 ---
 
 SharePoint provides date time filed to let user to set the date time for the list item or document, and you can use to CSOM API to update the date time field value, however what kind of time can we use to update the time? UTC or local Time? Let's figure out.
