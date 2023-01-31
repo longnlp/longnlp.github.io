@@ -2,7 +2,7 @@
 layout      : single
 title       : Field Value UTC Time vs Unspecial Time in CSOM?
 summary     : Understand the field value is UTC Time or not
-categories  : blog SharePointOnline
+categories  : SharePointOnline
 tags        : [SharePoint Online, CSOM, Field Value]
 date        : 2018-10-08 22:00:00
 commentId   : 2

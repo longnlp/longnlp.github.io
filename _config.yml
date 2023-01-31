@@ -151,6 +151,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label           : "Terms &amp; Privacy Policy"
+      icon            : "fas fa-info-circle"
+      url             : "/terms/"
 
 
 # Reading Files
@@ -292,3 +295,15 @@ defaults:
       share           : true
       related         : true
       show_date       : true
+      author_profile  : true
+  - scope:
+      path            : "_pages"
+      type            : pages
+    values:
+      layout          : single
+      read_time       : false
+      comments        : false
+      share           : false
+      related         : false
+      show_date       : true
+      author_profile  : true

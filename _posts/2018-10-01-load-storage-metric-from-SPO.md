@@ -2,7 +2,7 @@
 layout      : single
 title       : Load storage metric from SharePoint Online site collection
 summary     : Introduce how to load storage metric with CSOM and rest api
-categories  : blog SharePointOnline
+categories  : SharePointOnline
 tags        : [SharePoint Online, CSOM, Storage Metric]
 date        : 2018-10-01 23:00:00
 commentId   : 1
