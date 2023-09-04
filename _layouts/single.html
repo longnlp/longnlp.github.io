@@ -65,6 +65,7 @@ layout: default
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
+      {% if page.google_AD %}
       <div align="center" style="margin: 1em 0;">
         <ins class="adsbygoogle"
                 style="display:block"
@@ -73,6 +74,7 @@ layout: default
                 data-ad-format="auto"
                 data-full-width-responsive="true"></ins>
       </div>
+      {% endif %}
       <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
       <div class="grid__wrapper">
         {% for post in site.related_posts limit:4 %}

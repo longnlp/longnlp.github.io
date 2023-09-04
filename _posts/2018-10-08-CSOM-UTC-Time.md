@@ -8,6 +8,7 @@ date        : 2018-10-08 22:00:00
 commentId   : 2
 permalink   : /CSOM-UTC-Time
 toc         : true
+classes     : wide
 toc_icon    : "cog"
 toc_label   : "My Table of Contents"
 ---

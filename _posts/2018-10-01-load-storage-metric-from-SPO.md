@@ -8,6 +8,7 @@ date        : 2018-10-01 23:00:00
 commentId   : 1
 permalink   : /load-storage-metric-from-SPO
 toc         : true
+classes     : wide
 toc_icon    : "cog"
 toc_label   : "My Table of Contents"
 ---

@@ -296,6 +296,7 @@ defaults:
       related         : true
       show_date       : true
       author_profile  : true
+      google_AD       : false
   - scope:
       path            : "_pages"
       type            : pages
@@ -307,3 +308,4 @@ defaults:
       related         : false
       show_date       : true
       author_profile  : true
+      google_AD       : false
